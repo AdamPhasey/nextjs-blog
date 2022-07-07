@@ -1,7 +1,7 @@
-import Layout from '../../Components/Layout';
-import { getAllPostIds, getPostData } from '../../lib/posts';
+import Layout from '../../Components/layout.js';
+import { getAllPostIds, getPostData } from '../../lib/posts.js';
 import Head from 'next/head';
-import Date from '../../Components/Date';
+import Date from '../../Components/date.js';
 import utilStyles from '../../styles/utils.module.css';
 
 
